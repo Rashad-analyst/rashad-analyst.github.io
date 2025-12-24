@@ -7,19 +7,72 @@
 <html>
 	<head>
 		<meta name="description" content="Rashad Almarashdi - Data Analyst portfolio showcasing SQL, Python, Power BI, Tableau projects and professional experience.">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVQNGMRBB8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZVQNGMRBB8');
-</script>
-		<title>Rashad The analyst portfolio</title>
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVQNGMRBB8"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-ZVQNGMRBB8');
+		</script>
+		<title>Rashad Almarashdi | Data Analyst Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* تحسينات إضافية */
+			.project-badge {
+				display: inline-block;
+				background: #2E86C1;
+				color: white;
+				padding: 3px 10px;
+				border-radius: 12px;
+				font-size: 12px;
+				margin-left: 8px;
+				vertical-align: middle;
+			}
+			.skill-tag {
+				display: inline-block;
+				background: #f1f8ff;
+				color: #0366d6;
+				padding: 4px 10px;
+				border-radius: 15px;
+				font-size: 13px;
+				margin: 3px;
+				border: 1px solid #d1e0ff;
+			}
+			.stats-card {
+				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+				color: white;
+				padding: 20px;
+				border-radius: 10px;
+				text-align: center;
+				margin-bottom: 30px;
+			}
+			.stats-number {
+				font-size: 2.5em;
+				font-weight: bold;
+				display: block;
+			}
+			.stats-label {
+				font-size: 0.9em;
+				opacity: 0.9;
+			}
+			.tech-icon {
+				font-size: 2em;
+				margin-bottom: 10px;
+				color: #2E86C1;
+			}
+			.cta-button {
+				background: linear-gradient(45deg, #FF6B6B, #FF8E53);
+				color: white;
+				border: none;
+			}
+			.cta-button:hover {
+				background: linear-gradient(45deg, #FF8E53, #FF6B6B);
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -28,111 +81,237 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>Rashad The analyst portfolio</h1>
-						<p>Data analyst skilled in SQL, Tableaue, Power BI and python <a href="https://www.linkedin.com/in/rashad-almarashdi-2b9310145/">@Rashadtheanalyst</a>
+						<h1>Rashad Almarashdi</h1>
+						<h2>Data Analyst</h2>
+						<p>Transforming raw data into actionable insights with<br />
+						<strong>SQL • Python • Power BI • Tableau • Excel</strong></p>
+						
+						<!-- Quick Stats -->
+						<div style="margin: 30px 0;">
+							<span class="skill-tag">4+ Years Experience</span>
+							<span class="skill-tag">Ex-Amazon</span>
+							<span class="skill-tag">10+ Projects</span>
+							<span class="skill-tag">Data Visualization</span>
+						</div>
 						
 						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Explore My Work</a></li>
 						</ul>
 					</div>
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Rashad The Analyst</a>
+						<a href="index.html" class="logo">Data Analyst Portfolio</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
+							<li class="active"><a href="index.html">Projects Portfolio</a></li>
 							<li><a href="generic.html">Curriculum Vitae</a></li>
+							<li><a href="#skills">Technical Skills</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/rashad-almarashdi-2b9310145/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-									<li><a href="https://github.com/Rashad-analyst?tab=repositories" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-							
+							<li><a href="https://www.linkedin.com/in/rashad-almarashdi-2b9310145/" class="icon brands fa-linkedin" title="LinkedIn Profile"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/Rashad-analyst" class="icon brands fa-github" title="GitHub Portfolio"><span class="label">GitHub</span></a></li>
+							<li><a href="generic.html" class="icon solid fa-file-pdf" title="Download CV"><span class="label">CV</span></a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Featured Post -->
+						<!-- Professional Summary -->
+							<section class="post">
+								<header class="major">
+									<div class="box" style="text-align: center; padding: 30px; background: #f8f9fa; border-radius: 10px;">
+										<h2 style="margin-bottom: 20px;">Professional Summary</h2>
+										<p style="font-size: 1.1em; line-height: 1.6;">
+											Data Analyst with <strong>4+ years of experience</strong> at Amazon as a Senior Data Associate, 
+											specializing in data cleaning, dashboard building, and automated reporting. 
+											Proficient in transforming complex datasets into clear, actionable insights 
+											that drive business decisions and optimize workflows.
+										</p>
+										<div style="margin-top: 20px;">
+											<a href="generic.html" class="button primary">View Full CV & Experience</a>
+											<a href="Rashad_Almarashdi_Data_Analyst_CV.pdf" class="button" download>Download CV (PDF)</a>
+										</div>
+									</div>
+								</header>
+							</section>
+
+						<!-- Featured Project -->
 							<article class="post featured">
 								<header class="major">
-								
-									<h2><a href="https://github.com/Rashad-analyst/SQL-Data-Cleaning-Project">Data cleaning in SQL<br />
-									</a></h2>
-									<p>In this project we clean housing data in SQL server.</p>
+									<span class="date">Featured Project</span>
+									<h2><a href="https://github.com/Rashad-analyst/SQL-Data-Cleaning-Project">Advanced Data Cleaning with SQL<br /></a></h2>
+									<span class="project-badge">SQL</span>
+									<span class="project-badge">Data Processing</span>
+									<span class="project-badge">ETL</span>
+									
+									<p>Comprehensive data cleaning pipeline for housing data using <strong>SQL Window Functions, CTEs, and Advanced Joins</strong>. 
+									Transformed messy real-world data into analysis-ready datasets.</p>
 								</header>
-								<a href="https://github.com/Rashad-analyst/SQL-Data-Cleaning-Project"image main"><img src="images/housing.jfif" alt="" /></a>
+								<a href="https://github.com/Rashad-analyst/SQL-Data-Cleaning-Project" class="image main">
+									<img src="images/housing.jfif" alt="SQL Data Cleaning Project" />
+								</a>
+								<div style="margin: 20px 0;">
+									<h4>Key Features:</h4>
+									<ul style="text-align: left; display: inline-block;">
+										<li>Removed duplicates using ROW_NUMBER()</li>
+										<li>Standardized inconsistent fields and formats</li>
+										<li>Handled NULL values with smart defaults</li>
+										<li>Documented entire ETL process</li>
+									</ul>
+								</div>
 								<ul class="actions special">
-									<li><a href="https://github.com/Rashad-analyst/SQL-Data-Cleaning-Project" class="button"button large">View project</a></li>
+									<li><a href="https://github.com/Rashad-analyst/SQL-Data-Cleaning-Project" class="button large">View GitHub Repository</a></li>
+									<li><a href="generic.html" class="button large">See More Projects</a></li>
 								</ul>
 							</article>
 
-						<!-- Posts -->
+						<!-- Projects Grid -->
 							<section class="posts">
 								<article>
 									<header>
-										
-										<h2><a href="https://github.com/Rashad-analyst/SQL-Data-Exploration-Project">Data exploration in sql<br />
-										</a></h2>
+										<h2><a href="https://github.com/Rashad-analyst/SQL-Data-Exploration-Project">COVID-19 Data Exploration</a></h2>
+										<span class="project-badge">SQL Analysis</span>
+										<span class="project-badge">Healthcare Data</span>
 									</header>
-									<a href="https://github.com/Rashad-analyst/SQL-Data-Exploration-Project" class="image fit"><img src="images/covid-page-header.jpeg" alt="" /></a>
-									<p>Data exploration of covid 19 dataset in SQL server.</p>
+									<a href="https://github.com/Rashad-analyst/SQL-Data-Exploration-Project" class="image fit">
+										<img src="images/covid-page-header.jpeg" alt="COVID-19 Data Analysis" />
+									</a>
+									<p>Exploratory data analysis of global COVID-19 dataset using SQL Server. Uncovered infection trends, recovery rates, and regional impacts.</p>
+									<div style="margin: 15px 0;">
+										<span class="skill-tag">JOINS</span>
+										<span class="skill-tag">CTEs</span>
+										<span class="skill-tag">Aggregations</span>
+										<span class="skill-tag">Trend Analysis</span>
+									</div>
 									<ul class="actions special">
-										<li><a href="https://github.com/Rashad-analyst/SQL-Data-Exploration-Project" class="button">view project</a></li>
+										<li><a href="https://github.com/Rashad-analyst/SQL-Data-Exploration-Project" class="button">Explore Analysis</a></li>
 									</ul>
 								</article>
 								
 								<article>
 									<header>
-										
-										<h2><a href="https://public.tableau.com/app/profile/rashad.almarashdi/viz/AirBnBFullProject_17654099791420/Dashboard1">Tableau Project<br />
-									</a></h2>
+										<h2><a href="https://public.tableau.com/app/profile/rashad.almarashdi/viz/AirBnBFullProject_17654099791420/Dashboard1">Airbnb Market Analysis Dashboard</a></h2>
+										<span class="project-badge">Tableau</span>
+										<span class="project-badge">Data Visualization</span>
 									</header>
-									<a href="https://public.tableau.com/app/profile/rashad.almarashdi/viz/AirBnBFullProject_17654099791420/Dashboard1" class="image fit"><img src="images/Tableau" alt="" /></a>
-									<p>This holds my tableau project.</p>
+									<a href="https://public.tableau.com/app/profile/rashad.almarashdi/viz/AirBnBFullProject_17654099791420/Dashboard1" class="image fit">
+										<img src="images/Tableau" alt="Tableau Dashboard" onerror="this.src='https://via.placeholder.com/600x300/4A90E2/FFFFFF?text=Tableau+Dashboard'" />
+									</a>
+									<p>Interactive Tableau dashboard analyzing Airbnb market trends, pricing strategies, and occupancy rates with drill-down capabilities.</p>
+									<div style="margin: 15px 0;">
+										<span class="skill-tag">Interactive Viz</span>
+										<span class="skill-tag">Business Insights</span>
+										<span class="skill-tag">Dashboard Design</span>
+									</div>
 									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/rashad.almarashdi/viz/AirBnBFullProject_17654099791420/Dashboard1" class="button">view project</a></li>
+										<li><a href="https://public.tableau.com/app/profile/rashad.almarashdi/viz/AirBnBFullProject_17654099791420/Dashboard1" class="button">View Live Dashboard</a></li>
 									</ul>
+								</article>
 
-								</article>
-								<header>
-									<h2><a href="https://github.com/Rashad-analyst/Power-BI-Projects">Power BI Project<br />
-									</a></h2>
+								<article>
 									<header>
-									<a href="https://github.com/Rashad-analyst/Power-BI-Projects" class="image fit"><img src="images/7.jpg" alt="" /></a>
-									<p>This holds my Power project.</p>
+										<h2><a href="https://github.com/Rashad-analyst/Power-BI-Projects">Business Intelligence Dashboards</a></h2>
+										<span class="project-badge">Power BI</span>
+										<span class="project-badge">DAX</span>
+										<span class="project-badge">KPI Tracking</span>
+									</header>
+									<a href="https://github.com/Rashad-analyst/Power-BI-Projects" class="image fit">
+										<img src="images/7.jpg" alt="Power BI Projects" />
+									</a>
+									<p>Collection of Power BI dashboards for sales performance, inventory management, and operational KPIs with advanced DAX calculations.</p>
+									<div style="margin: 15px 0;">
+										<span class="skill-tag">Data Modeling</span>
+										<span class="skill-tag">DAX Formulas</span>
+										<span class="skill-tag">Report Publishing</span>
+									</div>
 									<ul class="actions special">
-										<li><a href="https://github.com/Rashad-analyst/Power-BI-Projects" class="button">view project</a></li>
+										<li><a href="https://github.com/Rashad-analyst/Power-BI-Projects" class="button">View Power BI Projects</a></li>
 									</ul>
-										
-										
 								</article>
-								
-				
-							</section class="split contact">
+
+								<article>
+									<header>
+										<h2><a href="#skills">Technical Skills Overview</a></h2>
+										<span class="project-badge">Expertise</span>
+										<span class="project-badge">Tools & Technologies</span>
+									</header>
+									<div class="box" style="padding: 20px; height: 100%;">
+										<h4>Core Technologies</h4>
+										<div style="margin: 15px 0;">
+											<div class="skill-tag" style="background: #336791; color: white;">SQL Expert</div>
+											<div class="skill-tag" style="background: #FFD43B; color: black;">Python (Pandas)</div>
+											<div class="skill-tag" style="background: #F2C811; color: black;">Power BI</div>
+											<div class="skill-tag" style="background: #E9767C; color: white;">Tableau</div>
+											<div class="skill-tag" style="background: #217346; color: white;">Excel Advanced</div>
+										</div>
+										
+										<h4>Specializations</h4>
+										<ul style="text-align: left;">
+											<li>Data Cleaning & Preparation</li>
+											<li>Dashboard Development</li>
+											<li>Automated Reporting</li>
+											<li>Workflow Optimization</li>
+										</ul>
+									</div>
+									<ul class="actions special">
+										<li><a href="generic.html#skills" class="button">View Detailed Skills</a></li>
+									</ul>
+								</article>
+							</section>
+
+						<!-- Skills Section -->
+							<section id="skills" class="post">
+								<header class="major">
+									<h2>Technical Skills & Expertise</h2>
+								</header>
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<h3>Data Analysis & Databases</h3>
+										<ul>
+											<li><strong>SQL:</strong> MySQL, MS-SQL Server, Complex Joins, CTEs, Window Functions</li>
+											<li><strong>Python:</strong> Pandas, NumPy, Data Cleaning, Exploratory Data Analysis</li>
+											<li><strong>Excel:</strong> Advanced Formulas, Pivot Tables, Power Query, Macros</li>
+										</ul>
+									</div>
+									<div class="col-6 col-12-small">
+										<h3>Visualization & BI Tools</h3>
+										<ul>
+											<li><strong>Power BI:</strong> DAX, Data Modeling, KPI Dashboards, Power Query</li>
+											<li><strong>Tableau:</strong> Interactive Dashboards, Data Storytelling, Visual Analytics</li>
+											<li><strong>Reporting:</strong> Automated Reports, Performance Metrics, Executive Summaries</li>
+										</ul>
+									</div>
+								</div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section id="contact" class="split contact">
 							<section class="alt">
 								<h3>Location</h3>
-								<p><br />
-								Amman-Jordan</p>
+								<p>Amman, Jordan</p>
 							</section>
 							<section>
 								<h3>Phone</h3>
-								<p><a href="#">(+962) 790050615</a></p>
+								<p><a href="tel:+962790050615">(+962) 790-050-615</a></p>
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">rashadmarashdeh@gmail.com</a></p>
+								<p><a href="mailto:rashadmarashdeh@gmail.com">rashadmarashdeh@gmail.com</a></p>
 							</section>
 							<section>
-								<h3>Social</h3>
+								<h3>Professional Profiles</h3>
 								<ul class="icons alt">
-									
-									<li><a href="https://www.linkedin.com/in/rashad-almarashdi-2b9310145/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-									<li><a href="https://github.com/Rashad-analyst?tab=repositories" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/rashad-almarashdi-2b9310145/" class="icon brands alt fa-linkedin" title="Connect on LinkedIn"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/Rashad-analyst" class="icon brands alt fa-github" title="View GitHub Projects"><span class="label">GitHub</span></a></li>
+									<li><a href="https://public.tableau.com/app/profile/rashad.almarashdi" class="icon solid alt fa-chart-bar" title="Tableau Public Profile"><span class="label">Tableau</span></a></li>
 								</ul>
 							</section>
 						</section>
@@ -140,7 +319,11 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul>
+							<li>&copy; 2024 Rashad Almarashdi</li>
+							<li>Data Analyst Portfolio</li>
+							<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
 					</div>
 
 			</div>
@@ -156,6 +339,3 @@
 
 	</body>
 </html>
-
-
-
